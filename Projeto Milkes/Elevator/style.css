@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.caixa {
+    background-color: #71797E;
+    margin-top: 15px;
+    height: 600px;
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: 500;
+    width: 30%;
+}
+
+.elevador {
+    margin-top: 25px;
+    margin-left: 150px;
+    background-color:black;
+    height: 150px;
+    width: 120px;
+    position:absolute;
+    opacity: 0.2;
+}
+
+.painel {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    margin-left: 100%;
+    background-color:lightgray;
+    height: 90%;
+    width: 25%;
+}
+
+.porta {
+           
+    background:#AAA;
+    width:49%;
+    height:100%;
+    top:0;
+    position:absolute;
+    transition:all 300ms ease-in;
+}
+#portaEsquerda{
+
+    left:0;
+
+    }
+
+#portaDireita {
+      
+      right:0;
+    background:#999;
+       
+}
+.active-right {
+
+          right:-50% !important;              
+
+}
+.active-left {
+          
+      left:-50% !important;              
+
+}
